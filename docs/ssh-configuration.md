@@ -13,6 +13,7 @@ If you're using more than one SSH key (e.g. for personal and work accounts), her
 ### Current SSH Directory Sample
 
 Here’s what my `.ssh` directory look like:
+
 ![SSH Directory](../images/ssh/ssh.png)
 
 ---
@@ -39,9 +40,11 @@ ssh-add ~/.ssh/id_shoplab
 ## ✅ Test Your SSH Connection
 
 To check if everything is working:
+
 ![commands](../images/ssh/git%20check%20connection.png)
 
 ## 🚀 Push to GitHub
 
 Once connected, pushing should work as expected:
+
 ![push](../images/ssh/git%20push.png)

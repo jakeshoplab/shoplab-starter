@@ -17,18 +17,18 @@ Development and workflow guide:
 ## 🎨 CSS Guidelines
 
 Maintain consistency in styling:  
-→ [Read CSS Guidelines](./css-guidelines.md)
+→ [Read CSS Guidelines](./docs/css-guidelines.md)
 
 ---
 
 ## 🚧 Tech Stack
 
 Overview of tools and technologies used:  
-→ [Explore Tech Stack](./techstack.md)
+→ [Explore Tech Stack](./docs/techstack.md)
 
 ---
 
 ## 📜 Scripts
 
 Project-specific scripts explained:  
-→ [See Script Reference](./scripts.md)
+→ [See Script Reference](./docs/scripts.md)

@@ -1,39 +1,53 @@
-# Naming Branch Convention
+# 🌿 Naming Branch Convention
 
-## Creating New Feature
+## ✨ Creating a New Feature
 
-Use prefix ***feat***
+Use the prefix: `feat`
 
-## Updates or Fixing Bugs
+---
 
-Use prefix ***fix***
+## 🐞 Updates or Bug Fixes
 
-## Branch Name Format
+Use the prefix: `fix`
 
-Type + Ticket ID
-e.g. ***feat/[ticket_id]*** or ***fix/[ticket_id]***
+---
 
-## Where to find Ticket ID
+## 🧱 Branch Name Format
 
-Head over to **Jira** and find a ticket that was assigned to you. samples below.
+Format:  
+`<type>/<ticket-id>`
 
-**Backlogs:**
-> ![backlog-ticket-id-locations](../images/backlog-ticket-id-locations.webp)
+Examples:
+- `feat/scm-2`
+- `fix/scm-2`
 
-**Sprint Kanban:**
-> ![backlog-ticket-id-locations](../images/active-sprints-kanban-ticket-id-location.webp)
+---
 
-**Sprint Kanban Modal:**
-> ![backlog-ticket-id-locations](../images/active-sprints-kanban-modal-ticket-id-location.webp)
+## 🔎 Where to Find the Ticket ID
 
-## Creating the Branch
+Go to **Jira** and look for the ticket assigned to you.  
+Here are a few examples:
+
+**Backlogs:**  
+> ![Backlog Ticket ID Location](../images/backlog-ticket-id-locations.webp)
+
+**Sprint Kanban:**  
+> ![Active Sprint Kanban Ticket ID](../images/active-sprints-kanban-ticket-id-location.webp)
+
+**Sprint Kanban Modal:**  
+> ![Sprint Modal Ticket ID](../images/active-sprints-kanban-modal-ticket-id-location.webp)
+
+---
+
+## 🚀 Creating the Branch
 
 ```bash
-  # make sure you are in the master branch
+# Make sure you're on the master branch first
+git checkout master
+git pull
 
-  # features
-  git checkout -b feat/scm-2
+# For features
+git checkout -b feat/scm-2
 
-  # fix or updates
-  git checkout -b fix/scm-2
-```
+# For fixes or updates
+git checkout -b fix/scm-2
